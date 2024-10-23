@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+  <head>
+    <title>Berita Cuy</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4e1d2;
+      }
+
+      header {
+        background-color: #d4a373;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #a98467;
+      }
+
+      nav a {
+        color: #fff;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        background-color: #c9ada7;
+      }
+
+      /* Main content and layout */
+      .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+      }
+
+      main {
+        flex: 3;
+        padding-right: 20px;
+      }
+
+      .content-wrapper {
+        display: flex;
+        margin-bottom: 20px;
+        background-color: #e4c1f9;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .content-wrapper img {
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+        border-radius: 8px;
+      }
+
+      .text-content {
+        flex: 1;
+      }
+
+      .text-content h2 {
+        margin: 0;
+        font-size: 20px;
+        color: #333;
+      }
+
+      .text-content p {
+        margin-top: 5px;
+      }
+
+      /* Sidebar */
+      aside {
+        flex: 1;
+        margin-left: 20px;
+      }
+
+      aside section {
+        background-color: #f4e1d2;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+      .popular,
+      .contact {
+        background-color: #c9ada7;
+      }
+
+      aside h2 {
+        margin-top: 0;
+        color: #333;
+      }
+
+      aside p {
+        margin-top: 0;
+        color: #333;
+      }
+
+      aside a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+        margin: 5px 0;
+      }
+
+      aside a:hover {
+        color: #555;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #a98467;
+        font-size: 14px;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Berita Cuy</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <a href="index.html"> Daftar Berita</a>
+      </ul>
+      <ul>
+        <a href="#"> Tentang </a>
+      </ul>
+      <ul>
+        <a href="#"> Kontak </a>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <main>
+        <section>
+          <a href="harini.html">
+            <article>
+              <div class="content-wrapper">
+                <img src="sqwi.jpg" alt="" />
+                <div class="text-content">
+                  <h2>Berita hari ini</h2>
+                  <p><strong>23 Oct 2024</strong></p>
+                  <p><strong>Berita baru.</strong></p>
+                  <p>
+                    Berita tentang sebuah berita yang memberitakan sebuah berita
+                    yang beritanya diberitakan sebuah berita.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <a href="kemarin.html">
+            <article>
+              <div class="content-wrapper">
+                <img src="scsqwi.jpg" alt="" />
+                <div class="text-content">
+                  <h2>Berita kemarin</h2>
+                  <p><strong>22 Oct 2024</strong></p>
+                  <p><strong>Berita kemarin tapi masih hangat.</strong></p>
+                  <p>
+                    Berita kemarin yang ngga kalah hangat dari berita hari ini
+                    yang memberitakan berita melalui berita yang diberitakan
+                    sebuah berita.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <a href="klagi.html">
+            <article>
+              <div class="content-wrapper">
+                <img src="scspo.jpg" alt="" />
+                <div class="text-content">
+                  <h2>Berita kemarinnya lagi</h2>
+                  <p><strong>21 Oct 2024</strong></p>
+                  <p><strong>Berita kemarin dari kemarinnya.</strong></p>
+                  <p>
+                    Berita yang bisa dibilang udah cukup lama tapi bolehlah.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <a href="imp.html">
+            <article>
+              <div class="content-wrapper">
+                <img src="hnsqwi.jpg" alt="" />
+                <div class="text-content">
+                  <h2>Beritakmungkin</h2>
+                  <p><strong>32 Des 2024</strong></p>
+                  <p><strong>Berita yang tidak mungkin ada.</strong></p>
+                  <p>
+                    Berita yang beritanya tidak mungkin ada tapi anggap saja ada
+                    karena kasihan kalo ngga dianggap.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+        </section>
+      </main>
+
+      <aside>
+        <section class="popular">
+          <h2>Berita Terkini</h2>
+          <a href="harini.html">Berita hari ini</a>
+          <a href="kemarin.html">Berita kemarin</a>
+          <a href="klagi.html">Berita kemarinnya lagi</a>
+          <a href="imp.html">Beritakmungkin</a>
+        </section>
+
+        <section class="contact">
+          <h2>Kontak</h2>
+          <p>Kantor Berita Cuy</p>
+          <p>Jl. Berita No. 1</p>
+          <p>Telepon: 08123456789</p>
+        </section>
+      </aside>
+    </div>
+
+    <footer>&copy; 2024 Berita Cuy</footer>
+  </body>
+</html>
